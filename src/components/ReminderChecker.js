@@ -32,7 +32,7 @@ function ReminderChecker() {
     };
 
     const interval = setInterval(checkTasks, 60000); // every 1 minute
-    checkTasks(); // run immediately once
+    checkTasks(); // running immediately once
 
     return () => clearInterval(interval);
   }, []);

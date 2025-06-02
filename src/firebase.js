@@ -1,9 +1,9 @@
-// Import the functions you need from the SDKs you need
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';;
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDhQ-30dceScVvgfWEaYOKWvy5mi5Nq3Lc",
+  apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   authDomain: "todo-app-1512b.firebaseapp.com",
   projectId: "todo-app-1512b",
   storageBucket: "todo-app-1512b.firebasestorage.app",
@@ -16,4 +16,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export { db }; // Export the Firestore database instance
+export { db }; // Export the Firestore database 

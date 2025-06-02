@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { db } from './firebase'; // Import the Firestore database instance
+import { db } from './firebase'; // Import the Firestore database 
 import { collection, getDocs } from 'firebase/firestore';
 import './App.css';
 import TaskForm from './components/TaskForm';

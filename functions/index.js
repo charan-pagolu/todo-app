@@ -7,12 +7,12 @@ const nodemailer = require("nodemailer");
 admin.initializeApp();
 const db = admin.firestore();
 
-// 🚨 Replace with your Gmail + App Password (for security, store in env variables later)
+
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "pagolucharan21@gmail.com",      // replace with your Gmail
-    pass: "knmy wfpc vjnt leiw",         // use an App Password from your Gmail account
+    user: "pagolucharan21@gmail.com",      
+    pass: "knmy wfpc vjnt leiw",         
   },
 });
 
